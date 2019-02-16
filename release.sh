@@ -1,8 +1,8 @@
 
 # 发布
-rsync -cavzP  ./ --exclude-from='.rsync-exclude' root@106.12.5.252:/home/docs/styled-components
-ssh root@106.12.5.252 "\
-cd /home/docs/styled-components; \
+rsync -cavzP  ./ --exclude-from='.rsync-exclude' root@0.0.0.0:/home/styled-components
+ssh root@0.0.0.0 "\
+cd /home/styled-components; \
 yarn; \
 sh deploy.sh; \
 "

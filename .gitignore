@@ -13,3 +13,7 @@ __diff_output__
 # Mac
 .DS_Store
 .*/
+
+./release.sh
+./pm2-processes.json
+./deploy.sh
